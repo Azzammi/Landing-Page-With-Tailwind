@@ -1,0 +1,24 @@
+{
+  "name": "landingpageari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/style.css -o dist/style.css",
+    "watch": "watch 'npm run build:css' ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luthfi",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss-cli-simple": "^3.1.0",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  }
+}

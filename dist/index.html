@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />    
+    <title>Learn Tailwind</title>
+</head>
+<body>
+       
+    <div class="container mx-auto mt-12">
+        <h1 class="text-blue-700 font-bold mb-3">Awesome Header</h1>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white duration-200 cursor-pointer py-2 px-8 rounded">Press Me</button>
+        <button class="btn-info">Another</button>
+        <button class="btn-info">Button Another</button>
+    </div>
+    <div class="container mx-auto mt-12">
+        <h1 class="text-2xl text-blue-700 font-bold mb-3">Mysterious Grid</h1>
+        <div class="grid grid-cols-4 grid-rows-2 gap-4">
+            <div class="col-span-2 row-span-2 bg-blue-100 text-center items-center p-4">Grid 1</div>
+            <div class="col-span-1 row-span-1 bg-blue-100 text-center p-4">Grid 2</div>
+            <div class="col-span-1 row-span-1 bg-blue-100 text-center p-4">Grid 3</div>
+            <div class="col-span-1 row-span-1 bg-blue-100 text-center p-4">Grid 4</div>
+            <div class="col-span-1 row-span-1 bg-blue-100 text-center p-4">Grid 5</div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-12">
+        <h1 class="text-2xl text-blue-700 font-bold mb-3">Mysterious Card</h1>
+        <div class="grid grid-cols-3 grid-rows-2 gap-4">
+            <div class="col-span-1 row-span-2">
+                <div class="card">
+                    Mysterious Card
+                    <img src="https://picsum.photos/300/200" alt="random" class="w-full mt-2"/>
+                    <button class="btn-info mt-4">Cool Button</button>
+                </div>    
+            </div>
+            <div class="col-span-1 row-span-2">
+                <div class="card">
+                    Mysterious Card 2
+                    <img src="https://picsum.photos/300/200" alt="random" class="w-full mt-2"/>
+                    <button class="btn-info mt-4">Cool Button</button>
+                </div> 
+            </div>
+            <div class="col-span-1 row-span-2">
+                <div class="card">
+                    Mysterious Card 3
+                    <img src="https://picsum.photos/300/200" alt="random" class="w-full mt-2"/>
+                    <button class="btn-info mt-4">Cool Button</button>
+                </div> 
+            </div>           
+        </div>
+    </div>    
+    <div class="container mx-auto mt-12">
+        <h1 class="text-2xl text-blue-700 font-bold mb-3">Responsive Grid</h1>
+        <div class="grid grid-cols-4 grid-rows-2 gap-4">
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 1</div>
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 2</div>
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 3</div>
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 4</div>
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 5</div>
+            <div class="col-span-4 sm:col-span-2 xl:col-span-1 bg-blue-100 text-center p-4">Responsive Grid 6</div>
+        </div>
+    </div>    
+</body>
+</html>
